@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- for video playing and functionality for player like controls,loop,autoplay -->
+    <div class="video-container">
+        <div class="left"></div>
+        <video  autoplay style="transform: scale(1);"></video>
+        <div class="right"></div>
+    </div>
+    <div class="filters">
+        <div class="filter" style="background-color: #f1c40f44;"></div>
+        <div class="filter" style="background-color: #55e6c242;"></div>
+        <div class="filter" style="background-color: #f7a11f54;"></div>
+        <div class="filter"></div>
+    </div>
+    <div class="zoom">
+        <div class="in">
+            <span class="material-icons md-36">
+            zoom_in
+            </span>
+        </div>
+        <div class="out">
+            <span class="material-icons md-36">
+            zoom_out
+            </span>
+        </div>
+    </div>
+     
+
+    <button id="record">
+        <div>
+            
+        </div>
+    </button>
+    <button id="capture">
+        <div>
+
+        </div>
+    </button>
+    <button id="gallery" style="background-color: black; height: 4rem; width: 4rem;">
+        <span class="material-icons" style="font-size: 3.5rem; color: white;">
+            collections
+        </span>
+    </button>
+    
+    <script src="dbscript.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
